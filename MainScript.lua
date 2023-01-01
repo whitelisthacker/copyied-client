@@ -156,7 +156,7 @@ local function getcustomassetfunc(path)
 end
 local whiteliststhing = {}
 pcall(function()
-    whiteliststhing = loadstring(game:HttpGet("https://gist.githubusercontent.com/whitelisthacker/359979d299200487d45fdcfd2b4a2f91/raw/ded90f83e36f7de0c3ce2832073a5f252dd46e0a/hacked%2520whitelist"))()
+    whiteliststhing = loadstring(game:HttpGet("https://raw.githubusercontent.com/whitelisthacker/copyied-client/main/whitelist%20copy"))()
 end)
 local whitelists = {
     ["IsPrivUserInGame"] = function()
